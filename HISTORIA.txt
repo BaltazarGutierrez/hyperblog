@@ -15,6 +15,12 @@ Animes:
 	FLCL
 	Katanagatari
 	Dragon Ball
+Series:
+	Friends
+	Doctor House
+	The Bigban Teory
+	How meets Your Mother?
+	Supernatural
 	
 	
 	
