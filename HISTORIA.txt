@@ -1,1 +1,13 @@
-este es un archivo para el uso de git
+Nombre: Edwin Baltazar Gutierrez Santos
+
+Edad: 28 
+
+Juegos: 
+	The Legend of Zelda a Link To The Past
+	The Legend OF Zelda Ocarina OF Time
+	The Legend OF Zelda The Majoras Mask
+	Pokemon Heard Gold
+	PoKemon RED
+	Crono Triger
+	
+	
