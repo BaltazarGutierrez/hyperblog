@@ -4,23 +4,24 @@ Edad: 28
 
 Juegos: 
 	The Legend of Zelda a Link To The Past
+	Crono Triger
 	The Legend OF Zelda Ocarina OF Time
 	The Legend OF Zelda The Majoras Mask
 	Pokemon Heard Gold
 	PoKemon RED
-	Crono Triger
 Animes:
 	One Piece
-	TengentopeGurrenlaga
+	Tengentope Gurrenlaga
 	FLCL
 	Katanagatari
 	Dragon Ball
+	Durarara
 Series:
 	Friends
+	Supernatural	
 	Doctor House
 	The Bigban Teory
-	How meets Your Mother?
-	Supernatural
+	Grimm
 Series Animadas:
 	Futurama
 	Batman La Serie Animada 90's 
