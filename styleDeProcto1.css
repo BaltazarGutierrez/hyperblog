@@ -1,25 +1,60 @@
 
-
-.indice {
-    display: flex;
-    flex-direction: row;
+/* no entiendo muy bien que pedo aqui lo saque de una paguina pero es elmeu desplegable seguro con mas tiempo le encuentro logica*/
+ul.indice,
+ul.indice * {
+margin: 0;
+padding: 0;
+border: 0;
 }
-
-.indicedeArticulo {
-    
-    color: green;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    align-items: center;
-    width: 75px;
-    height: 15px;
-    margin: 10px;
-    border: 5px solid black;
-    padding: 10px;
-    border-radius: 25px;
+ul.indice {
+margin: 10px auto;
+padding: 0;
+list-style: none;
+width: 100%;
+font-size: 18px;
 }
+ul.indice li {
+list-style: none;
+}
+ul.indice li a {
+display: block;
+padding: 10px 10px 10px 20px;
+background: #333;
+color: #eee;
+border-bottom: 1px solid #000;
+border-top: 1px solid #666;
+text-decoration: none;
+box-sizing: border-box;
+}
+ul.indice li ul {
+max-height: 0;
+margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+transition: .3s all ease-in;
+}
+ul.indice li li a {
+padding: 10px 10px 10px 40px;
+background: #999;
+color: #000;
+font-size: 16px;
+border: 0;
+border-bottom: 1px solid #ccc;
+box-sizing: border-box;
+}
+ul.indice li li:last-child a {
+border-bottom: 0;
+}
+ul.indice li:hover ul {
+max-height: 300px;
+transition: .3s all ease-in;
+}
+ul.indice li a:hover {
+background: #666;
+color: #fff;
+}
+/*hasta aqui llega el menu desplegable que sabra dios como lo hice */
 
 .seccion_de_detalle{
     display: flex;
