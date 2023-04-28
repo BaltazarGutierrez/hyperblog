@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recurrente</title>
+    <link rel="stylesheet" href="styleDeProcto1.css">
 </head>
 <body>
     <section>
@@ -19,25 +20,33 @@
             
         </div>
         <div id="seccionDeOpciones">
-            <input type="radio" name="opciones" id="botonJuegos" />
+            <!-- <input type="radio" name="opciones" id="botonJuegos" /> -->
             <label  for="botonJuegos">
-                <p>Juegos</p>
+                <p>
+                    <a href="#seccionDeJuegos">Juegos</a>
+                </p>
             </label>
-            <input type="radio" name="opciones" id="botonAnimes" />
+            <!-- <input type="radio" name="opciones" id="botonAnimes" href="#seccionDeAnime"/> -->
             <label  for="botonAnimes">
-                <p>Animes</p>
+                <p>
+                    <a href="#seccionDeAnime">Animes</a>
+                </p>
             </label>
-            <input type="radio" name="opciones" id="botonSeriesLive" />
+            <!-- <input type="radio" name="opciones" id="botonSeriesLive" href="#seccionDeSeries"/> -->
             <label  for="botonSeriesLive">
-                <p>Series</p>
+                <p>
+                    <a href="#seccionDeseries">Series</a>
+                </p>
             </label>
-            <input type="radio" name="opciones" id="botonSeiresAnimadas" />
+            <!-- <input type="radio" name="opciones" id="botonSeiresAnimadas" href="#seccionDeSerAnimadas"/> -->
             <label  for="botonSeiresAnimadas">
-                <p>Series Animadas</p>
+                <p>
+                    <a href="#seccionDeSerAnimadas">Series Animadas</a>
+                </p>
             </label>
         </div>
     </section>
-    <section class="seccionDejuegos">
+    <section id="seccionDeJuegos" class="seccion_de_juegos">
         <h2>Juegos</h2>
         <div>
             <img src="./poster/01juegos/0101zeldaLinkToThePast.jpg" width="200"/>
@@ -60,7 +69,7 @@
             <p>aqui va la descripcion o un comentarios </p>
         </div>
     </section>
-    <section class="seccionDeAnime">
+    <section id="seccionDeAnime">
         <h2>Animes</h2>
         <div>
             <img src="./poster/02animes/0101onePiece.jpg" width="200"/>
@@ -84,7 +93,7 @@
         </div>
     </section>
 
-    <section class="seccionDeseries">
+    <section id="seccionDeseries">
         <h2>Series</h2>
         <div>
             <img src="./poster/03series/0101friends.jpg" width="200"/>
@@ -104,7 +113,7 @@
         </div>
     </section>
 
-    <section class="seccionDeSerAnimadas">
+    <section id="seccionDeSerAnimadas">
         <h2>Series Animadas</h2>
         <div>
             <img src="./poster/04seriesAnimadas/0101futurama.jpg" width="200"/>
