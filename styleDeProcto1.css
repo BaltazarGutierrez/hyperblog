@@ -56,27 +56,73 @@ color: #fff;
 }
 /*hasta aqui llega el menu desplegable que sabra dios como lo hice */
 
-.seccion_de_detalle{
-    display: flex;
-    margin: 10px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: nowrap;
-}
+/*aqui trabajare la seccion de jugos como tabla*/
 
-.listaDeJuegos {
-    display: flex;
-    
+.articulosDeJuegos {
+    position: relative;   
+    min-height: 500px;
+    clear: both;
+    margin: 25px 0;
 }
-.listaArticulosJUegos {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+.fichasDeJuegos {
     float: left;
-    width: 33.33%;
-    padding: 5px;
+}
+.fichasDeJuegos label {
+    background: #eee; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin-left: -1px; 
+    position: relative;
+    left: 1px; 
+}
+.fichasDeJuegos [type=radio] {
+    display: none;   
+}
+.descripJuegos {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: white;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    overflow: hidden;
+}
+.descripJuegos > * {
+    opacity: 0;
+    
+    -webkit-transform: translate3d(0, 0, 0);
+    
+    -webkit-transform: translateX(-100%);
+    -moz-transform:    translateX(-100%);
+    -ms-transform:     translateX(-100%);
+    -o-transform:      translateX(-100%);
+    
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -ms-transition:     all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+}
+[type=radio]:checked ~ label {
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 2;
+}
+[type=radio]:checked ~ label ~ .descripJuegos {
+    z-index: 1;
+}
+[type=radio]:checked ~ label ~ .descripJuegos > * {
+    opacity: 1;
+    
+    -webkit-transform: translateX(0);
+    -moz-transform:    translateX(0);
+    -ms-transform:     translateX(0);
+    -o-transform:      translateX(0);
 }
 
-.listaArticulosJUegos img{
-    width: 100%;
+.descripJuegos img{
+    width: 250px;
 }
+
+/* aqui termina la modificacion de la seccion de de juegos pero hay oartes que no se como funciona y tiene un error de compatibilidad */
